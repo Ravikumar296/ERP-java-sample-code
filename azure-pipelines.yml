@@ -19,6 +19,7 @@ steps:
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: '1.8'
 
+
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
   inputs:
